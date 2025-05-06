@@ -148,16 +148,9 @@ color: #404bbf;
     color: #f4f4fd;
   }
 
-  .footer-text {
-    color: #f4f4fd;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-  }
-
   img {
     display: block;
-    max-width: 100;
+    max-width: 100%;
     height: auto;
   }
   .portfolio-img {
@@ -165,5 +158,5 @@ color: #404bbf;
   }
 
   .team-img {
-    width: 264;
+    width: 264px;
   }
