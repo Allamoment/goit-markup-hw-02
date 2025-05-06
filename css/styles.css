@@ -5,7 +5,7 @@ body {
 }
 
 .logo {
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -44,7 +44,14 @@ body {
   address-link:focus {
 color: #404bbf;
   }
-
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 .hero-section {
     background-color: #2e2f42;
 }
@@ -57,7 +64,7 @@ color: #404bbf;
 }
 
 .hero-button {
-    background-color: #4d4ae5;
+    background-color: #4d5ae5;
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -78,7 +85,7 @@ color: #404bbf;
 
 .goal-title {
     font-weight: 500;
-    font-family: 20px;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02;
     color: #2e2f42;
@@ -94,7 +101,8 @@ color: #404bbf;
     background-color: #f4f4fd;
 }
 
-.team-title, .portfolio-title {
+.team-title, 
+.portfolio-title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -124,7 +132,19 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #434455;
 }
+ .card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+ }
 
+ .card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
 .footer {
     background-color: #2e2f42;
 }
@@ -136,7 +156,7 @@ color: #404bbf;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d4ae5;
+    color: #4d5ae5;
 }
  .footer-logo-span {
     color: #f4f4fd;
@@ -148,15 +168,4 @@ color: #404bbf;
     color: #f4f4fd;
   }
 
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  .portfolio-img {
-    width: 360px;
-  }
-
-  .team-img {
-    width: 264px;
-  }
+  
